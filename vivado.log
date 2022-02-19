@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  2 22:33:15 2021
+# Process ID: 7152
+# Current directory: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3408 C:\Users\leler\Desktop\SoundDisplay_new.xpr\SoundDisplay\SoundDisplay.xpr
+# Log file: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/vivado.log
+# Journal file: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.xpr
+INFO: [Project 1-313] Project file moved from 'D:/study/AY2020-2021 SEM2/EE2026/project/final/SoundDisplay/.Xil/Vivado-17180-DESKTOP-TGPA631/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 817.215 ; gain = 105.402
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/test_random.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/test_random.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/Mario.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/boarder.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/bonus.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/btnD_hint.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/concert.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/concert_hint.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/congras_forest.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/door.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/forest.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/got_moon.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/menu.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/monster.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/moon.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/no_moon.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/oled_background.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/pipe.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/thank_you.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/short_mario.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/tord.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/welcome.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/xian.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/xhint.mem] -no_script -reset -force -quiet
+remove_files  {C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/Mario.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/boarder.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/bonus.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/btnD_hint.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/concert.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/concert_hint.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/congras_forest.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/door.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/forest.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/got_moon.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/menu.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/monster.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/moon.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/no_moon.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/oled_background.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/pipe.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/thank_you.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/short_mario.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/tord.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/welcome.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/xian.mem C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/xhint.mem}
+add_files -norecurse {{C:/Users/leler/Desktop/EE2026 project/bonus.mem} {C:/Users/leler/Desktop/EE2026 project/thank_you.mem} {C:/Users/leler/Desktop/EE2026 project/tord.mem} {C:/Users/leler/Desktop/EE2026 project/Mario.mem} {C:/Users/leler/Desktop/EE2026 project/forest.mem} {C:/Users/leler/Desktop/EE2026 project/bg2.mem} {C:/Users/leler/Desktop/EE2026 project/monster.mem} {C:/Users/leler/Desktop/EE2026 project/welcome.mem} {C:/Users/leler/Desktop/EE2026 project/got_moon.mem} {C:/Users/leler/Desktop/EE2026 project/menu.mem} {C:/Users/leler/Desktop/EE2026 project/btnD_hint.mem} {C:/Users/leler/Desktop/EE2026 project/oled_background.mem} {C:/Users/leler/Desktop/EE2026 project/boarder.mem} {C:/Users/leler/Desktop/EE2026 project/door.mem} {C:/Users/leler/Desktop/EE2026 project/short_mario.mem} {C:/Users/leler/Desktop/EE2026 project/xhint.mem} {C:/Users/leler/Desktop/EE2026 project/concert_hint.mem} {C:/Users/leler/Desktop/EE2026 project/concert.mem} {C:/Users/leler/Desktop/EE2026 project/no_moon.mem} {C:/Users/leler/Desktop/EE2026 project/pipe.mem} {C:/Users/leler/Desktop/EE2026 project/xian.mem} {C:/Users/leler/Desktop/EE2026 project/moon.mem}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/leler/Desktop/EE2026 project/bg2.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/leler/Desktop/EE2026 project/bg2.mem}}
+add_files -norecurse {{C:/Users/leler/Desktop/EE2026 project/bg2.mem}}
+close [ open C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v w ]
+add_files C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Apr  2 22:46:18 2021] Launched synth_1...
+Run output will be captured here: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Fri Apr  2 22:46:18 2021] Launched impl_1...
+Run output will be captured here: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 883.277 ; gain = 1.719
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183713896A
+set_property PROGRAM.FILE {C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183713896A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183713896A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183713896A
+archive_project C:/Users/leler/Desktop/final.xpr.zip -temp_dir C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/.Xil/Vivado-7152-DESKTOP-JQA6TM2 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/.Xil/Vivado-7152-DESKTOP-JQA6TM2' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/.Xil/Vivado-7152-DESKTOP-JQA6TM2/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

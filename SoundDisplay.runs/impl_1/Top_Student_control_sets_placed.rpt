@@ -1,0 +1,132 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Apr  2 22:53:56 2021
+| Host         : DESKTOP-JQA6TM2 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    61 |
+| Unused register locations in slices containing registers |   128 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            4 |
+|      4 |            2 |
+|      6 |            1 |
+|      8 |            3 |
+|     10 |            4 |
+|     12 |            2 |
+|     14 |            2 |
+|    16+ |           43 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             394 |           87 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             948 |          139 |
+| Yes          | No                    | No                     |            1578 |          350 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+---------------------------------------------------------+--------------------------------------------+------------------+----------------+
+|               Clock Signal               |                      Enable Signal                      |              Set/Reset Signal              | Slice Load Count | Bel Load Count |
++------------------------------------------+---------------------------------------------------------+--------------------------------------------+------------------+----------------+
+|  clock_381hz/clk_381hz                   | unit_my_audio_cap/E[0]                                  |                                            |                1 |              2 |
+|  show_vol/clock3P125Mhz/oled_data_reg[0] |                                                         |                                            |                1 |              2 |
+|  unit_s/s_o/body_reg_i_2_n_0             |                                                         |                                            |                1 |              2 |
+| ~clock_6P25Mhz_BUFG                      |                                                         |                                            |                1 |              2 |
+|  enter_pw/clock30hz/Q_reg                |                                                         |                                            |                1 |              4 |
+|  switch_speed                            |                                                         |                                            |                1 |              4 |
+|  snake_game_start_BUFG                   |                                                         |                                            |                1 |              6 |
+|  clock_381hz/clk_381hz                   | unit_my_audio_cap/seg_single_digit_reg[0]_1             | unit_my_audio_cap/seg_single_digit_reg[0]  |                3 |              8 |
+|  clock_100Mhz_IBUF_BUFG                  | Oled_display/unit_colour_reg[15]_37[0]                  |                                            |                2 |              8 |
+|  clock_10hz_BUFG                         |                                                         |                                            |                4 |              8 |
+|  show_vol/clock3P125Mhz/oled_data_reg[0] |                                                         | show_vol/index_convert/oled_data_reg[15]_5 |                2 |             10 |
+|  clock_100Mhz_IBUF_BUFG                  | Oled_display/unit_colour_reg[15]_47[0]                  |                                            |                4 |             10 |
+|  clock_100Mhz_IBUF_BUFG                  | Oled_display/unit_colour_reg[15]_35[0]                  |                                            |                5 |             10 |
+|  clock_100Mhz_IBUF_BUFG                  | Oled_display/unit_colour_reg[15]_8[0]                   |                                            |                5 |             10 |
+|  clock30hz/new_clock                     |                                                         |                                            |                2 |             12 |
+|  clock20hz/clk_20hz                      |                                                         | unit_my_audio_cap/led_reg[4]               |                4 |             12 |
+|  clock_381hz/clk_381hz                   |                                                         |                                            |                3 |             14 |
+|  clock_381hz/clk_381hz                   | show_vol/unit_in/unit_dd/seg[6]_i_1__1_n_0              |                                            |                3 |             14 |
+|  unit_s/unit_fc/CLK                      |                                                         |                                            |                2 |             16 |
+|  unit_s/unit_fc/CLK                      | snake_game_start_BUFG                                   |                                            |                4 |             16 |
+|  clock20hz/clk_20hz                      |                                                         |                                            |                6 |             18 |
+|  show_vol/clock3P125Mhz/oled_data_reg[0] |                                                         | show_vol/index_convert/oled_data_reg[5]_0  |                4 |             20 |
+| ~unit_my_audio_cap/J_MIC3_Pin4_OBUF      |                                                         |                                            |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                   | show_vol/unit_in/vol_max0                               |                                            |                3 |             24 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | menu_show/SS[0]                            |                6 |             24 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | J_MIC3_Pin1_OBUF_BUFG                      |                3 |             24 |
+|  show_vol/clock30hz/CLK                  |                                                         |                                            |                5 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                   |                                                         | show_vol/unit_in/counter[13]_i_1_n_0       |                5 |             28 |
+|  enter_pw/clock381hz/new_clock           |                                                         |                                            |                5 |             30 |
+|  clock_100Mhz_IBUF_BUFG                  | Oled_display/E[0]                                       |                                            |                8 |             30 |
+|  clock_100Mhz_IBUF_BUFG                  | game_mario/game1/mario_read/unit_colour[15]_i_1__4_n_0  |                                            |                8 |             30 |
+|  clock_100Mhz_IBUF_BUFG                  | game_mario/game3/mario_read/unit_colour[15]_i_1__9_n_0  |                                            |                7 |             30 |
+|  clock_100Mhz_IBUF_BUFG                  | game_mario/game1/forest_render/oled_data[15]_i_1__5_n_0 |                                            |               11 |             32 |
+|  dbtnC                                   |                                                         | enter_pw/pass                              |                4 |             32 |
+|  clock_100Mhz_IBUF_BUFG                  | game_mario/game1/oled_data_reg[0][0]                    |                                            |               10 |             32 |
+|  clock_100Mhz_IBUF_BUFG                  | game_mario/game2/E[0]                                   |                                            |                7 |             32 |
+|  clock_100Mhz_IBUF_BUFG                  | menu_show/oled_data_reg[0]_0[0]                         |                                            |               12 |             32 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | menu_show/SR[0]                            |                8 |             32 |
+|  clock_10hz_BUFG                         | game_mario/game3/mario_x0                               |                                            |               10 |             32 |
+|  clock_10hz_BUFG                         | menu_show/E[0]                                          |                                            |               11 |             32 |
+|  clock_10hz_BUFG                         | game_mario/game2/concert_show_moon0                     |                                            |                7 |             34 |
+| ~clock_6P25Mhz_BUFG                      |                                                         | Oled_display/frame_counter[16]_i_1_n_0     |                5 |             36 |
+|  clock_100Mhz_IBUF_BUFG                  | menu_on                                                 |                                            |                7 |             36 |
+| ~clock_6P25Mhz_BUFG                      | Oled_display/delay[0]_i_1_n_0                           |                                            |                5 |             40 |
+|  switch_speed                            | unit_s/s_o/rand/random_number[86]_i_1_n_0               |                                            |                9 |             42 |
+|  J_MIC3_Pin1_OBUF_BUFG                   |                                                         |                                            |                7 |             48 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | show_vol/clock30hz/clear                   |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | show_vol/clock3P125Mhz/count[0]_i_1__3_n_0 |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | clock_381hz/clear                          |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | clock10hz/count[0]_i_1__7_n_0              |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | clock20hz/count[0]_i_1__8_n_0              |                8 |             64 |
+| ~clock_6P25Mhz_BUFG                      | Oled_display/state                                      |                                            |                9 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | clock30hz/count[0]_i_1__4_n_0              |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | clock6P25Mhz/count[0]_i_1__6_n_0           |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | unit_clk_20k/count[0]_i_1__9_n_0           |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | enter_pw/clock30hz/count[0]_i_1__0_n_0     |                8 |             64 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         | enter_pw/clock381hz/clear                  |                8 |             64 |
+|  dbtnC                                   | enter_pw/sel                                            |                                            |               11 |             82 |
+| ~clock_6P25Mhz_BUFG                      |                                                         | Oled_display/spi_word[39]_i_1_n_0          |               18 |             90 |
+|  clock_100Mhz_IBUF_BUFG                  |                                                         |                                            |               44 |            176 |
+|  switch_speed                            | snake_game_start_BUFG                                   |                                            |              194 |            918 |
++------------------------------------------+---------------------------------------------------------+--------------------------------------------+------------------+----------------+
+
+

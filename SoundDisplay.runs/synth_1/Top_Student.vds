@@ -1,0 +1,2078 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  2 22:46:21 2021
+# Process ID: 9244
+# Current directory: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/synth_1
+# Command line: vivado.exe -log Top_Student.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Student.tcl
+# Log file: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/synth_1/Top_Student.vds
+# Journal file: C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Student.tcl -notrace
+Command: synth_design -top Top_Student -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 252 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 357.508 ; gain = 101.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_Student' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v:17]
+INFO: [Synth 8-6157] synthesizing module 'random_num' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/random_num.v:22]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/clcock_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/clcock_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'single_pulse_circuit' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/single_pulse_circuit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'my_dff' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/my_dff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'my_dff' (2#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/my_dff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'single_pulse_circuit' (3#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/single_pulse_circuit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'random_num' (4#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/random_num.v:22]
+WARNING: [Synth 8-689] width (8) of port connection 'seg' does not match port width (7) of module 'random_num' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v:145]
+INFO: [Synth 8-6157] synthesizing module 'show_vol_bar' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/show_vol_bar.v:23]
+INFO: [Synth 8-3876] $readmem data file 'boarder.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/show_vol_bar.v:64]
+INFO: [Synth 8-6157] synthesizing module 'read_oled_background' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_oled_background.v:22]
+INFO: [Synth 8-3876] $readmem data file 'oled_background.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_oled_background.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'read_oled_background' (5#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_oled_background.v:22]
+INFO: [Synth 8-6157] synthesizing module 'read_bg2' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v:22]
+INFO: [Synth 8-3876] $readmem data file 'bg2.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'read_bg2' (6#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v:22]
+INFO: [Synth 8-6157] synthesizing module 'intensity_new' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/intensity_new.v:23]
+INFO: [Synth 8-6157] synthesizing module 'digit_display_new_version' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/digit_display_new_version.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'digit_display_new_version' (7#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/digit_display_new_version.v:23]
+INFO: [Synth 8-6157] synthesizing module 'led_display_new' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/led_display_new.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'led_display_new' (8#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/led_display_new.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux_new' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/mux_new.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux_new' (9#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/mux_new.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'intensity_new' (10#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/intensity_new.v:23]
+INFO: [Synth 8-6157] synthesizing module 'convert_index' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/convert_index.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'convert_index' (11#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/convert_index.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'show_vol_bar' (12#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/show_vol_bar.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mario_game' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/mario_game.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Game1_forest' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game1_forest.v:23]
+	Parameter ground1 bound to: 6'b111111 
+	Parameter ground2 bound to: 6'b101011 
+	Parameter ground3 bound to: 6'b010011 
+	Parameter celling1 bound to: 7'b0110011 
+	Parameter celling2 bound to: 7'b0011100 
+	Parameter moon_y bound to: 7'b0001010 
+	Parameter pipe_y bound to: 7'b1010000 
+	Parameter door_y bound to: 7'b1001011 
+	Parameter square_y bound to: 7'b0000000 
+	Parameter tord_y bound to: 7'b0001111 
+	Parameter moon_x bound to: 6'b011101 
+	Parameter pipe_x bound to: 6'b110010 
+	Parameter door_x bound to: 6'b000101 
+	Parameter square_x bound to: 6'b000000 
+	Parameter tord_x bound to: 6'b110100 
+INFO: [Synth 8-6157] synthesizing module 'read_forest_background' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_forest_background.v:23]
+INFO: [Synth 8-3876] $readmem data file 'forest.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_forest_background.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_forest_background' (13#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_forest_background.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_btnD_hint' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_btnD_hint.v:23]
+INFO: [Synth 8-3876] $readmem data file 'btnD_hint.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_btnD_hint.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_btnD_hint' (14#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_btnD_hint.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_mario' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_mario.v:23]
+INFO: [Synth 8-3876] $readmem data file 'Mario.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_mario.v:30]
+INFO: [Synth 8-3876] $readmem data file 'short_mario.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_mario.v:31]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_mario.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'read_mario' (15#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_mario.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_moon' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_moon.v:23]
+INFO: [Synth 8-3876] $readmem data file 'moon.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_moon.v:28]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_moon.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'read_moon' (16#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_moon.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_door' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_door.v:23]
+INFO: [Synth 8-3876] $readmem data file 'door.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_door.v:28]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_door.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'read_door' (17#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_door.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_pipe' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_pipe.v:22]
+INFO: [Synth 8-3876] $readmem data file 'pipe.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_pipe.v:27]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_pipe.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'read_pipe' (18#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_pipe.v:22]
+INFO: [Synth 8-6157] synthesizing module 'read_tord' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_tord.v:23]
+INFO: [Synth 8-3876] $readmem data file 'tord.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_tord.v:28]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_tord.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'read_tord' (19#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_tord.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_no_moon' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:23]
+INFO: [Synth 8-3876] $readmem data file 'no_moon.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:28]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'read_no_moon' (20#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_got_moon' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:23]
+INFO: [Synth 8-3876] $readmem data file 'got_moon.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:29]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'read_got_moon' (21#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:23]
+INFO: [Synth 8-6157] synthesizing module 'forest_render' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/forest_render.v:22]
+	Parameter moon_y bound to: 7'b0001010 
+	Parameter pipe_y bound to: 7'b1010000 
+	Parameter door_y bound to: 7'b1001011 
+	Parameter square_y bound to: 7'b0000000 
+	Parameter tord_y bound to: 7'b0001111 
+	Parameter moon_x bound to: 6'b011101 
+	Parameter pipe_x bound to: 6'b110010 
+	Parameter door_x bound to: 6'b000101 
+	Parameter square_x bound to: 6'b000000 
+	Parameter tord_x bound to: 6'b110100 
+INFO: [Synth 8-6155] done synthesizing module 'forest_render' (22#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/forest_render.v:22]
+WARNING: [Synth 8-6014] Unused sequential element ground_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game1_forest.v:68]
+WARNING: [Synth 8-6014] Unused sequential element celling_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game1_forest.v:73]
+WARNING: [Synth 8-6014] Unused sequential element tord_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game1_forest.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'Game1_forest' (23#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game1_forest.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Game2_concert' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game2_concert.v:22]
+	Parameter ground1 bound to: 6'b111111 
+	Parameter ground2 bound to: 6'b110011 
+	Parameter ground3 bound to: 6'b011010 
+	Parameter ground4 bound to: 6'b010010 
+	Parameter moon_x bound to: 6'b000011 
+	Parameter pipe_x bound to: 6'b110010 
+	Parameter door_x bound to: 6'b000011 
+	Parameter square_x bound to: 6'b000000 
+	Parameter tord_x bound to: 6'b001110 
+	Parameter moon_y bound to: 7'b0101000 
+	Parameter pipe_y bound to: 7'b0000011 
+	Parameter door_y bound to: 7'b1010001 
+	Parameter square_y bound to: 7'b0000000 
+	Parameter tord_y bound to: 7'b0000010 
+INFO: [Synth 8-6157] synthesizing module 'read_concert_background' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert.v:23]
+INFO: [Synth 8-3876] $readmem data file 'concert.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_concert_background' (24#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_forest_congras' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'congras_forest.mem'; please make sure the file is added to project and has read permission, ignoring [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:27]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+WARNING: [Synth 8-3848] Net congras in module/entity read_forest_congras does not have driver. [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:24]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'read_forest_congras' (25#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_congras.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_concert_hint' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert_hint.v:24]
+INFO: [Synth 8-3876] $readmem data file 'concert_hint.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert_hint.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'read_concert_hint' (26#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert_hint.v:24]
+INFO: [Synth 8-6157] synthesizing module 'concert_render' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/concert_render.v:23]
+	Parameter moon_x bound to: 6'b000011 
+	Parameter pipe_x bound to: 6'b110010 
+	Parameter door_x bound to: 6'b000011 
+	Parameter square_x bound to: 6'b000000 
+	Parameter tord_x bound to: 6'b001110 
+	Parameter moon_y bound to: 7'b0101000 
+	Parameter pipe_y bound to: 7'b0000011 
+	Parameter door_y bound to: 7'b1010001 
+	Parameter square_y bound to: 7'b0000000 
+	Parameter tord_y bound to: 7'b0000010 
+INFO: [Synth 8-6155] done synthesizing module 'concert_render' (27#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/concert_render.v:23]
+WARNING: [Synth 8-6014] Unused sequential element ground_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game2_concert.v:72]
+WARNING: [Synth 8-6014] Unused sequential element tord_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game2_concert.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'Game2_concert' (28#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game2_concert.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Game3_xian' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game3_xian.v:23]
+	Parameter ground1 bound to: 6'b111100 
+	Parameter ground2 bound to: 6'b100011 
+	Parameter ground3 bound to: 6'b011101 
+	Parameter ground4 bound to: 6'b010111 
+	Parameter ground5 bound to: 6'b010001 
+	Parameter moon_x bound to: 6'b011110 
+	Parameter pipe_x bound to: 6'b110000 
+	Parameter door_x bound to: 6'b101110 
+	Parameter square_x bound to: 6'b000000 
+	Parameter tord_x bound to: 6'b001100 
+	Parameter monster_x bound to: 6'b000110 
+	Parameter moon_y bound to: 7'b1010000 
+	Parameter pipe_y bound to: 7'b0000010 
+	Parameter door_y bound to: 7'b1001110 
+	Parameter square_y bound to: 7'b0000000 
+	Parameter tord_y bound to: 7'b0111011 
+	Parameter monster_y bound to: 7'b1010011 
+INFO: [Synth 8-6157] synthesizing module 'read_xian_background' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_background.v:23]
+INFO: [Synth 8-3876] $readmem data file 'xian.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_background.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_xian_background' (29#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_background.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_xian_hint' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_hint.v:23]
+INFO: [Synth 8-3876] $readmem data file 'xhint.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_hint.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_xian_hint' (30#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_hint.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_xian_bonus' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_bonus.v:23]
+INFO: [Synth 8-3876] $readmem data file 'bonus.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_bonus.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_xian_bonus' (31#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_bonus.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_monster' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_monster.v:23]
+INFO: [Synth 8-3876] $readmem data file 'monster.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_monster.v:28]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_monster.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'read_monster' (32#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_monster.v:23]
+INFO: [Synth 8-6157] synthesizing module 'render' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/render.v:23]
+	Parameter monster_x bound to: 6'b000110 
+	Parameter moon_x bound to: 6'b011110 
+	Parameter tord_x bound to: 6'b001100 
+	Parameter pipe_x bound to: 6'b110000 
+	Parameter square_x bound to: 6'b000000 
+	Parameter door_x bound to: 6'b101110 
+	Parameter monster_y bound to: 7'b1010011 
+	Parameter moon_y bound to: 7'b1010000 
+	Parameter tord_y bound to: 7'b0111011 
+	Parameter pipe_y bound to: 7'b0000010 
+	Parameter square_y bound to: 7'b0000000 
+	Parameter door_y bound to: 7'b1001110 
+INFO: [Synth 8-6155] done synthesizing module 'render' (33#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/render.v:23]
+WARNING: [Synth 8-6014] Unused sequential element ground_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game3_xian.v:76]
+WARNING: [Synth 8-6014] Unused sequential element tord_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game3_xian.v:94]
+INFO: [Synth 8-6155] done synthesizing module 'Game3_xian' (34#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Game3_xian.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_thank_you' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_thank_you.v:23]
+INFO: [Synth 8-3876] $readmem data file 'thank_you.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_thank_you.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_thank_you' (35#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_thank_you.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mario_game' (36#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/mario_game.v:22]
+WARNING: [Synth 8-350] instance 'game_mario' of module 'mario_game' requires 19 connections, but only 18 given [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v:151]
+INFO: [Synth 8-6157] synthesizing module 'snake' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake.v:23]
+INFO: [Synth 8-6157] synthesizing module 'flexible_clock' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flexible_clock' (37#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'moving_control' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/moving_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'moving_control' (38#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/moving_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'snake_oled' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:25]
+INFO: [Synth 8-6157] synthesizing module 'random' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/random.v:23]
+WARNING: [Synth 8-6014] Unused sequential element ref_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/random.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'random' (39#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/random.v:23]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 41 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 41 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 42 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 42 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 43 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 43 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 44 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 44 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 45 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 45 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 46 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 46 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 47 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 47 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 48 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 48 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 49 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 49 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 50 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 50 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 51 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 51 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 52 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 52 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 53 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 53 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 54 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 54 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 55 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 55 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 56 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 56 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 57 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 57 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 58 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 58 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 59 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 59 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 60 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 60 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 61 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 61 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 62 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 62 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:90]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 41 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-324] index 41 out of range [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+INFO: [Common 17-14] Message 'Synth 8-324' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element hit_body_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'snake_oled' (40#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:25]
+INFO: [Synth 8-6157] synthesizing module 'snake_seg_display' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_seg_display.v:23]
+INFO: [Synth 8-6157] synthesizing module 'snake_score_display' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_score_display.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'snake_score_display' (41#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_score_display.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'snake_seg_display' (42#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_seg_display.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'snake' (43#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_welcome' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_welcome.v:23]
+INFO: [Synth 8-3876] $readmem data file 'welcome.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_welcome.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_welcome' (44#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_welcome.v:23]
+INFO: [Synth 8-6157] synthesizing module 'read_menu' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_menu.v:23]
+INFO: [Synth 8-3876] $readmem data file 'menu.mem' is read successfully [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_menu.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'read_menu' (45#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_menu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'my_clock_divider_audio' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/my_clock_divider_audio.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'my_clock_divider_audio' (46#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/my_clock_divider_audio.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Audio_Capture' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'Audio_Capture' (47#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:25]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:124]
+INFO: [Synth 8-226] default block is never used [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:201]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:349]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (48#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
+INFO: [Synth 8-6157] synthesizing module 'show_menu' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/show_menu.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/show_menu.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'show_menu' (49#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/show_menu.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (50#1) [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v:17]
+WARNING: [Synth 8-3331] design snake has unconnected port switch[0]
+WARNING: [Synth 8-3331] design Game3_xian has unconnected port clock_3P125Mhz
+WARNING: [Synth 8-3331] design Game2_concert has unconnected port clock_3P125Mhz
+WARNING: [Synth 8-3331] design Game1_forest has unconnected port clock_3P125Mhz
+WARNING: [Synth 8-3331] design mario_game has unconnected port clock_30hz
+WARNING: [Synth 8-3331] design show_vol_bar has unconnected port vol_bar_start
+WARNING: [Synth 8-3331] design show_vol_bar has unconnected port sw0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 537.176 ; gain = 280.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 537.176 ; gain = 280.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 537.176 ; gain = 280.852
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Student_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Student_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 949.188 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 950.742 ; gain = 694.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 950.742 ; gain = 694.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 950.742 ; gain = 694.418
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_oled_background.v:35]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v:35]
+INFO: [Synth 8-5544] ROM "anode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_ten_digit0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_ten_digit" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_single_digit" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_forest_background.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_btnD_hint.v:32]
+INFO: [Synth 8-5546] ROM "moon" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "door" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pipe" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tord" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:36]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:37]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert_hint.v:33]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_background.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_hint.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_bonus.v:32]
+INFO: [Synth 8-5546] ROM "monster" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_thank_you.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_welcome.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_menu.v:32]
+INFO: [Synth 8-5545] ROM "my_new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'head_reg' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:122]
+WARNING: [Synth 8-327] inferring latch for variable 'body_reg' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:116]
+WARNING: [Synth 8-327] inferring latch for variable 'point_reg' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:123]
+WARNING: [Synth 8-327] inferring latch for variable 'border_reg' [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/snake_oled.v:121]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 950.742 ; gain = 694.418
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |muxpart__11        |           1|     98288|
+|2     |reg__33            |           1|        16|
+|3     |Game2_concert__GC0 |           1|      5089|
+|4     |mario_game__GC0    |           1|     11572|
+|5     |Top_Student__GC0   |           1|     23723|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    200 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 1     
+	   4 Input     16 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 25    
+	   3 Input      8 Bit       Adders := 50    
+	   2 Input      8 Bit       Adders := 83    
+	   2 Input      7 Bit       Adders := 46    
+	   3 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 8     
+	   3 Input      6 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 6     
++---Registers : 
+	              200 Bit    Registers := 1     
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 45    
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	                8 Bit    Registers := 4     
+	                7 Bit    Registers := 71    
+	                6 Bit    Registers := 5     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 61    
++---ROMs : 
+	                              ROMs := 18    
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 35    
+	 109 Input     16 Bit        Muxes := 3     
+	 226 Input     16 Bit        Muxes := 3     
+	 155 Input     16 Bit        Muxes := 3     
+	 133 Input     16 Bit        Muxes := 3     
+	   3 Input     16 Bit        Muxes := 4     
+	  89 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 2     
+	  19 Input     16 Bit        Muxes := 1     
+	   5 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	  16 Input     15 Bit        Muxes := 1     
+	  13 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 16    
+	   5 Input      8 Bit        Muxes := 2     
+	   9 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   5 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 258   
+	   4 Input      7 Bit        Muxes := 3     
+	  30 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 36    
+	   5 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 342   
+	   4 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top_Student 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module read_forest_congras 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module read_concert_background 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_concert_hint 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_mario__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module read_moon__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 109 Input     16 Bit        Muxes := 1     
+Module read_door__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 226 Input     16 Bit        Muxes := 1     
+Module read_pipe__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 155 Input     16 Bit        Muxes := 1     
+Module read_tord__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 133 Input     16 Bit        Muxes := 1     
+Module read_no_moon__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_got_moon__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module concert_render 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+	   3 Input     16 Bit        Muxes := 1     
+Module Game2_concert 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 11    
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 8     
+	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module read_forest_background 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_btnD_hint 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_mario 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module read_moon 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 109 Input     16 Bit        Muxes := 1     
+Module read_door 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 226 Input     16 Bit        Muxes := 1     
+Module read_pipe 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 155 Input     16 Bit        Muxes := 1     
+Module read_tord 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 133 Input     16 Bit        Muxes := 1     
+Module read_no_moon 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_got_moon 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module forest_render 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 1     
+Module Game1_forest 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 7     
+	   2 Input      7 Bit       Adders := 10    
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 15    
+	   2 Input      1 Bit        Muxes := 2     
+Module read_xian_background 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_xian_hint 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_xian_bonus 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_mario__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module read_moon__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 109 Input     16 Bit        Muxes := 1     
+Module read_monster 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	  89 Input     16 Bit        Muxes := 1     
+Module read_door__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 226 Input     16 Bit        Muxes := 1     
+Module read_pipe__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 155 Input     16 Bit        Muxes := 1     
+Module read_tord__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	 133 Input     16 Bit        Muxes := 1     
+Module read_no_moon__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_got_moon__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module render 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+Module Game3_xian 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 6     
+	   2 Input      7 Bit       Adders := 13    
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 9     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module read_thank_you 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module mario_game 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+Module clock_divider__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module my_dff__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module random_num 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     16 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      7 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+Module read_oled_background 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_bg2 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module digit_display_new_version 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+	   5 Input      8 Bit        Muxes := 2     
+	   9 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   3 Input      6 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 24    
+Module led_display_new 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+	  16 Input     15 Bit        Muxes := 1     
+Module mux_new 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module intensity_new 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module show_vol_bar 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
+	   3 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
++---Muxes : 
+	  19 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 8     
+	   3 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+	  13 Input     15 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+Module my_dff__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module moving_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module random 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    200 Bit       Adders := 1     
++---Registers : 
+	              200 Bit    Registers := 1     
+Module snake_oled 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 66    
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                7 Bit    Registers := 64    
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     16 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 252   
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 282   
+Module snake_score_display 
+Detailed RTL Component Info : 
++---Muxes : 
+	  30 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+Module snake_seg_display 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module snake 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module read_welcome 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module read_menu 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module clock_divider__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module my_clock_divider_audio__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module my_clock_divider_audio 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Audio_Capture 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module my_dff__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module show_menu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "clock30hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock381hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element clock10hz/new_clock_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/clcock_divider.v:30]
+INFO: [Synth 8-5545] ROM "clock3P125Mhz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock30hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element unit_clk_100/my_new_clock_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/my_clock_divider_audio.v:34]
+INFO: [Synth 8-5545] ROM "clock_381hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock6P25Mhz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock3P125Mhz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock10hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock30hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock20hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "unit_clk_20k/my_new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:36]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:37]
+WARNING: [Synth 8-6014] Unused sequential element concert_background_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert.v:32]
+WARNING: [Synth 8-6014] Unused sequential element hint_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_concert_hint.v:33]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:36]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:37]
+WARNING: [Synth 8-6014] Unused sequential element forest_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_forest_background.v:32]
+WARNING: [Synth 8-6014] Unused sequential element hint_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_btnD_hint.v:32]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_no_moon.v:36]
+WARNING: [Synth 8-6014] Unused sequential element unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_got_moon.v:37]
+WARNING: [Synth 8-6014] Unused sequential element xian_background_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_background.v:32]
+WARNING: [Synth 8-6014] Unused sequential element hint_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_hint.v:32]
+WARNING: [Synth 8-6014] Unused sequential element bonus_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_xian_bonus.v:32]
+WARNING: [Synth 8-6014] Unused sequential element thank_you_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_thank_you.v:32]
+INFO: [Synth 8-5545] ROM "clock381hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock30hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock30hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock3P125Mhz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element oled_background/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_oled_background.v:35]
+WARNING: [Synth 8-6014] Unused sequential element bg2_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_bg2.v:35]
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clock_381hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock6P25Mhz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock3P125Mhz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock10hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock30hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clock20hz/new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "unit_clk_20k/my_new_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element welcome_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_welcome.v:32]
+WARNING: [Synth 8-6014] Unused sequential element menu_read/unit_colour_reg was removed.  [C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/read_menu.v:32]
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[0]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[0]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[0]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[0]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[1]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[1]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[1]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[1]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[2]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[2]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[2]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[2]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[3]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[3]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[3]' (FDE) to 'game2i_3/door_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[3]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[4]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[4]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[4]' (FDE) to 'game2i_3/door_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[4]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[5]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[5]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[5]' (FDE) to 'game2i_3/door_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[6]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[6]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[6]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[6]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[7]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (game2i_3/\door_read/unit_colour_reg[7] )
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[8]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[8]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[8]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[9]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[9]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[9]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[9]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[10]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[10]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[10]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[10]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[11]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[11]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[11]' (FDE) to 'game2i_3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[11]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[12]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[12]' (FDE) to 'game2i_3/door_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[12]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[13]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[13]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/moon_read/unit_colour_reg[14]' (FDE) to 'game2i_3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/pipe_read/unit_colour_reg[14]' (FDE) to 'game2i_3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/door_read/unit_colour_reg[14]' (FDE) to 'game2i_3/door_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game2i_3/tord_read/unit_colour_reg[14]' (FDE) to 'game2i_3/tord_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[0]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[0]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[0]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[0]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[0]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[1]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[1]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[1]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[1]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[1]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[2]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[2]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[2]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[2]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[2]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[3]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[3]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[3]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[3]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[3]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[4]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[4]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[4]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[4]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[4]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[5]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[5]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[5]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[6]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[6]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[6]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[6]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[6]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[7]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (game_marioi_4/game3/door_read/\unit_colour_reg[7] )
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[8]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[8]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[8]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[8]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[9]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[9]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[9]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[9]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[9]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/moon_read/unit_colour_reg[10]' (FDE) to 'game_marioi_4/game3/moon_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/pipe_read/unit_colour_reg[10]' (FDE) to 'game_marioi_4/game3/pipe_read/unit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/door_read/unit_colour_reg[10]' (FDE) to 'game_marioi_4/game3/door_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/tord_read/unit_colour_reg[10]' (FDE) to 'game_marioi_4/game3/tord_read/unit_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'game_marioi_4/game3/monster_read/unit_colour_reg[10]' (FDE) to 'game_marioi_4/game3/monster_read/unit_colour_reg[14]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (game_marioi_4/game1/door_read/\unit_colour_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (unit_colour_reg[7]) is unused and will be removed from module read_door.
+WARNING: [Synth 8-3332] Sequential element (short_reg) is unused and will be removed from module read_mario__2.
+WARNING: [Synth 8-3332] Sequential element (unit_colour_reg[7]) is unused and will be removed from module read_door__2.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/show_vol/\unit_in/unit_dd/seg_ten_digit_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/show_vol/\unit_in/unit_dd/seg_single_digit_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/enter_pw/i_3/\random_num1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/enter_pw/i_3/\random_num1_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/unit_s/\s_s_d/anode_new_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/show_vol/\unit_in/unit_ld/led_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (unit_in/unit_dd/seg_single_digit_reg[7]) is unused and will be removed from module show_vol_bar.
+WARNING: [Synth 8-3332] Sequential element (unit_in/unit_dd/seg_ten_digit_reg[2]) is unused and will be removed from module show_vol_bar.
+WARNING: [Synth 8-3332] Sequential element (unit_in/unit_ld/led_reg[15]) is unused and will be removed from module show_vol_bar.
+WARNING: [Synth 8-3332] Sequential element (s_s_d/anode_new_reg[3]) is unused and will be removed from module snake.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (game2i_2/\unit_colour_reg[15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/show_vol/\unit_in/unit_dd/seg_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (unit_in/unit_dd/seg_ten_digit_reg[7]) is unused and will be removed from module show_vol_bar.
+WARNING: [Synth 8-3332] Sequential element (unit_in/unit_dd/seg_reg[7]) is unused and will be removed from module show_vol_bar.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:21 ; elapsed = 00:05:26 . Memory (MB): peak = 1020.977 ; gain = 764.652
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5835] Resources of type BRAM have been overutilized. Used = 102, Available = 100. Will try to implement using LUT-RAM. 
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------------+-----------------------------------------+---------------+----------------+
+|Module Name             | RTL Object                              | Depth x Width | Implemented As | 
++------------------------+-----------------------------------------+---------------+----------------+
+|read_oled_background    | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_bg2                | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|show_vol_bar            | p_0_out                                 | 8192x16       | LUT            | 
+|read_forest_background  | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_btnD_hint          | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_mario              | p_0_out                                 | 128x16        | LUT            | 
+|read_mario              | p_0_out                                 | 256x16        | LUT            | 
+|read_no_moon            | unit_colour_reg                         | 128x16        | Block RAM      | 
+|read_got_moon           | unit_colour_reg                         | 128x16        | Block RAM      | 
+|read_concert_background | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_concert_hint       | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_xian_background    | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_xian_hint          | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_xian_bonus         | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_thank_you          | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_welcome            | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_menu               | unit_colour_reg                         | 8192x16       | Block RAM      | 
+|read_mario              | p_0_out                                 | 128x16        | LUT            | 
+|read_mario              | p_0_out                                 | 256x16        | LUT            | 
+|read_no_moon            | unit_colour_reg                         | 128x16        | Block RAM      | 
+|read_got_moon           | unit_colour_reg                         | 128x16        | Block RAM      | 
+|Top_Student             | concert_background_read/unit_colour_reg | 8192x16       | Block RAM      | 
+|Top_Student             | hint_read/unit_colour_reg               | 8192x16       | Block RAM      | 
+|read_mario              | p_0_out                                 | 128x16        | LUT            | 
+|read_mario              | p_0_out                                 | 256x16        | LUT            | 
+|read_no_moon            | unit_colour_reg                         | 128x16        | Block RAM      | 
+|read_got_moon           | unit_colour_reg                         | 128x16        | Block RAM      | 
+|Game1_forest            | forest_read/unit_colour_reg             | 8192x16       | Block RAM      | 
+|Game1_forest            | hint_read/unit_colour_reg               | 8192x16       | Block RAM      | 
+|read_mario              | p_0_out                                 | 128x16        | LUT            | 
+|read_mario              | p_0_out                                 | 256x16        | LUT            | 
+|read_no_moon            | unit_colour_reg                         | 128x16        | Block RAM      | 
+|read_got_moon           | unit_colour_reg                         | 128x16        | Block RAM      | 
+|Game3_xian              | xian_background_read/unit_colour_reg    | 8192x16       | Block RAM      | 
+|Game3_xian              | hint_read/unit_colour_reg               | 8192x16       | Block RAM      | 
+|Game3_xian              | bonus_read/unit_colour_reg              | 8192x16       | Block RAM      | 
+|Top_Student             | thank_you_read/unit_colour_reg          | 8192x16       | Block RAM      | 
+|show_vol_bar            | p_0_out                                 | 8192x16       | LUT            | 
+|show_vol_bar            | bg2_read/unit_colour_reg                | 8192x16       | Block RAM      | 
+|show_vol_bar            | oled_background/unit_colour_reg         | 8192x16       | Block RAM      | 
+|snake                   | p_0_out                                 | 32x7          | LUT            | 
+|Top_Student             | menu_read/unit_colour_reg               | 8192x16       | Block RAM      | 
+|Top_Student             | welcome_read/unit_colour_reg            | 8192x16       | Block RAM      | 
++------------------------+-----------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_4/no_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_5/got_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_6/concert_background_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_6/concert_background_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_6/concert_background_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_6/concert_background_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_7/hint_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_7/hint_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_7/hint_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_3/i_7/hint_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/no_moon_read/i_0/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/got_moon_read/i_0/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_0/forest_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_0/forest_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_0/forest_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_0/forest_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_1/hint_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_1/hint_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_1/hint_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game1/i_1/hint_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/no_moon_read/i_0/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/got_moon_read/i_0/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_0/xian_background_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_0/xian_background_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_0/xian_background_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_0/xian_background_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_1/hint_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_1/hint_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_1/hint_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_1/hint_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_2/bonus_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_2/bonus_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_2/bonus_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/game3/i_2/bonus_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/i_0/thank_you_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/i_0/thank_you_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/i_0/thank_you_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_marioi_4/i_0/thank_you_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_19/bg2_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_19/bg2_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_19/bg2_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_19/bg2_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_20/oled_background/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_20/oled_background/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_20/oled_background/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/show_vol/i_20/oled_background/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_0/menu_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_0/menu_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_0/menu_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_0/menu_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_1/welcome_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_1/welcome_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_1/welcome_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_1/welcome_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |Game2_concert__GC0 |           1|      1894|
+|2     |mario_game__GC0    |           1|      5450|
+|3     |Top_Student__GC0   |           1|     12737|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:33 ; elapsed = 00:05:39 . Memory (MB): peak = 1020.977 ; gain = 764.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:05:39 ; elapsed = 00:05:44 . Memory (MB): peak = 1064.938 ; gain = 808.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |Game2_concert__GC0 |           1|      1897|
+|2     |mario_game__GC0    |           1|      5450|
+|3     |Top_Student__GC0   |           1|     12737|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/no_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/no_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/got_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/got_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/concert_background_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/concert_background_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/concert_background_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/concert_background_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/hint_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/hint_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/hint_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game2/hint_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/forest_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/forest_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/forest_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/forest_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/hint_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/hint_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/hint_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game1/hint_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/no_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/got_moon_read/unit_colour_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/xian_background_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/xian_background_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/xian_background_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/xian_background_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/hint_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/hint_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/hint_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/hint_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/bonus_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/bonus_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/bonus_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/game3/bonus_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/thank_you_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/thank_you_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/thank_you_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance game_mario/thank_you_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/bg2_read/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/bg2_read/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/bg2_read/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/bg2_read/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/oled_background/unit_colour_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/oled_background/unit_colour_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/oled_background/unit_colour_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance show_vol/oled_background/unit_colour_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Common 17-14] Message 'Synth 8-4480' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:05:46 ; elapsed = 00:05:51 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:05:47 ; elapsed = 00:05:53 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:05:47 ; elapsed = 00:05:53 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:48 ; elapsed = 00:05:54 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:05:48 ; elapsed = 00:05:54 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:05:49 ; elapsed = 00:05:54 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:05:49 ; elapsed = 00:05:55 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Top_Student | unit_s/s_o/rand/random_number_reg[80] | 44     | 1     | NO           | NO                 | YES               | 0      | 2       | 
+|Top_Student | unit_s/s_o/rand/random_number_reg[30] | 144    | 1     | NO           | NO                 | YES               | 0      | 5       | 
++------------+---------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     7|
+|2     |CARRY4      |   507|
+|3     |LUT1        |   239|
+|4     |LUT2        |   749|
+|5     |LUT3        |   515|
+|6     |LUT4        |   994|
+|7     |LUT5        |   772|
+|8     |LUT6        |  1998|
+|9     |MUXF7       |    64|
+|10    |MUXF8       |    12|
+|11    |RAMB18E1    |     2|
+|12    |RAMB18E1_1  |     2|
+|13    |RAMB36E1    |     1|
+|14    |RAMB36E1_1  |     1|
+|15    |RAMB36E1_10 |     1|
+|16    |RAMB36E1_11 |     1|
+|17    |RAMB36E1_12 |     1|
+|18    |RAMB36E1_13 |     1|
+|19    |RAMB36E1_14 |     1|
+|20    |RAMB36E1_15 |     1|
+|21    |RAMB36E1_16 |     1|
+|22    |RAMB36E1_17 |     1|
+|23    |RAMB36E1_18 |     1|
+|24    |RAMB36E1_19 |     1|
+|25    |RAMB36E1_2  |     1|
+|26    |RAMB36E1_20 |     1|
+|27    |RAMB36E1_21 |     1|
+|28    |RAMB36E1_22 |     1|
+|29    |RAMB36E1_23 |     1|
+|30    |RAMB36E1_24 |     1|
+|31    |RAMB36E1_25 |     1|
+|32    |RAMB36E1_26 |     1|
+|33    |RAMB36E1_27 |     1|
+|34    |RAMB36E1_28 |     1|
+|35    |RAMB36E1_29 |     1|
+|36    |RAMB36E1_3  |     1|
+|37    |RAMB36E1_30 |     1|
+|38    |RAMB36E1_31 |     1|
+|39    |RAMB36E1_32 |     1|
+|40    |RAMB36E1_33 |     1|
+|41    |RAMB36E1_34 |     1|
+|42    |RAMB36E1_35 |     1|
+|43    |RAMB36E1_36 |     1|
+|44    |RAMB36E1_37 |     1|
+|45    |RAMB36E1_38 |     1|
+|46    |RAMB36E1_39 |     1|
+|47    |RAMB36E1_4  |     1|
+|48    |RAMB36E1_40 |     1|
+|49    |RAMB36E1_41 |     1|
+|50    |RAMB36E1_42 |     1|
+|51    |RAMB36E1_43 |     1|
+|52    |RAMB36E1_44 |     1|
+|53    |RAMB36E1_45 |     1|
+|54    |RAMB36E1_46 |     1|
+|55    |RAMB36E1_47 |     1|
+|56    |RAMB36E1_5  |     1|
+|57    |RAMB36E1_6  |     1|
+|58    |RAMB36E1_7  |     1|
+|59    |RAMB36E1_8  |     1|
+|60    |RAMB36E1_9  |     1|
+|61    |SRLC32E     |     7|
+|62    |FDE_1       |    32|
+|63    |FDRE        |  1402|
+|64    |FDSE        |    26|
+|65    |LD          |     4|
+|66    |IBUF        |    23|
+|67    |OBUF        |    37|
++------+------------+------+
+
+Report Instance Areas: 
++------+------------------------------+--------------------------+------+
+|      |Instance                      |Module                    |Cells |
++------+------------------------------+--------------------------+------+
+|1     |top                           |                          |  7440|
+|2     |  Oled_display                |Oled_Display              |  1916|
+|3     |  clock10hz                   |clock_divider             |    55|
+|4     |  clock20hz                   |clock_divider_0           |    55|
+|5     |  clock30hz                   |clock_divider_1           |    55|
+|6     |  clock6P25Mhz                |clock_divider_2           |    52|
+|7     |  clock_381hz                 |clock_divider_3           |    53|
+|8     |  enter_pw                    |random_num                |   315|
+|9     |    clock30hz                 |clock_divider_34          |    55|
+|10    |    clock381hz                |clock_divider_35          |    53|
+|11    |    my_sp_module2             |single_pulse_circuit_36   |     3|
+|12    |      unit_1                  |my_dff_37                 |     2|
+|13    |      unit_2                  |my_dff_38                 |     1|
+|14    |  game_mario                  |mario_game                |  1799|
+|15    |    game1                     |Game1_forest              |   518|
+|16    |      door_read               |read_door_29              |    18|
+|17    |      forest_read             |read_forest_background    |     4|
+|18    |      forest_render           |forest_render             |    43|
+|19    |      hint_read               |read_btnD_hint            |     4|
+|20    |      mario_read              |read_mario_30             |   166|
+|21    |      moon_read               |read_moon_31              |     9|
+|22    |      pipe_read               |read_pipe_32              |    25|
+|23    |      tord_read               |read_tord_33              |    42|
+|24    |    game2                     |Game2_concert             |   584|
+|25    |      concert_background_read |read_concert_background   |     9|
+|26    |      concert_render          |concert_render            |    50|
+|27    |      door_read               |read_door_22              |    42|
+|28    |      got_moon_read           |read_got_moon_23          |    32|
+|29    |      hint_read               |read_concert_hint         |     4|
+|30    |      mario_read              |read_mario_24             |   175|
+|31    |      moon_read               |read_moon_25              |    27|
+|32    |      no_moon_read            |read_no_moon_26           |    38|
+|33    |      pipe_read               |read_pipe_27              |    46|
+|34    |      tord_read               |read_tord_28              |    66|
+|35    |    game3                     |Game3_xian                |   630|
+|36    |      bonus_read              |read_xian_bonus           |    20|
+|37    |      door_read               |read_door                 |    15|
+|38    |      got_moon_read           |read_got_moon             |    11|
+|39    |      hint_read               |read_xian_hint            |     4|
+|40    |      mario_read              |read_mario                |   179|
+|41    |      monster_read            |read_monster              |     9|
+|42    |      moon_read               |read_moon                 |    39|
+|43    |      no_moon_read            |read_no_moon              |     6|
+|44    |      pipe_read               |read_pipe                 |    24|
+|45    |      tord_read               |read_tord                 |    41|
+|46    |      xian_background_read    |read_xian_background      |     4|
+|47    |      xian_render             |render                    |    81|
+|48    |    thank_you_read            |read_thank_you            |     4|
+|49    |  menu_read                   |read_menu                 |     4|
+|50    |  menu_show                   |show_menu                 |    65|
+|51    |  my_sp_module2               |single_pulse_circuit      |     5|
+|52    |    unit_1                    |my_dff_20                 |     4|
+|53    |    unit_2                    |my_dff_21                 |     1|
+|54    |  my_sp_module3               |single_pulse_circuit_4    |     2|
+|55    |    unit_1                    |my_dff_18                 |     1|
+|56    |    unit_2                    |my_dff_19                 |     1|
+|57    |  my_sp_module4               |single_pulse_circuit_5    |     3|
+|58    |    unit_1                    |my_dff_16                 |     1|
+|59    |    unit_2                    |my_dff_17                 |     2|
+|60    |  show_vol                    |show_vol_bar              |   495|
+|61    |    bg2_read                  |read_bg2                  |     4|
+|62    |    clock30hz                 |clock_divider_14          |    55|
+|63    |    clock3P125Mhz             |clock_divider_15          |    51|
+|64    |    index_convert             |convert_index             |    65|
+|65    |    oled_background           |read_oled_background      |     6|
+|66    |    unit_in                   |intensity_new             |   170|
+|67    |      unit_dd                 |digit_display_new_version |    43|
+|68    |      unit_ld                 |led_display_new           |    69|
+|69    |  unit_clk_20k                |my_clock_divider_audio    |    52|
+|70    |  unit_my_audio_cap           |Audio_Capture             |   148|
+|71    |  unit_s                      |snake                     |  2102|
+|72    |    d1                        |single_pulse_circuit_6    |     2|
+|73    |      unit_1                  |my_dff_12                 |     1|
+|74    |      unit_2                  |my_dff_13                 |     1|
+|75    |    d2                        |single_pulse_circuit_7    |     4|
+|76    |      unit_1                  |my_dff_10                 |     2|
+|77    |      unit_2                  |my_dff_11                 |     2|
+|78    |    d3                        |single_pulse_circuit_8    |     4|
+|79    |      unit_1                  |my_dff                    |     2|
+|80    |      unit_2                  |my_dff_9                  |     2|
+|81    |    m_c                       |moving_control            |    26|
+|82    |    s_o                       |snake_oled                |  2017|
+|83    |      rand                    |random                    |    63|
+|84    |    s_s_d                     |snake_seg_display         |    13|
+|85    |    unit_fc                   |flexible_clock            |    36|
+|86    |  welcome_read                |read_welcome              |     4|
++------+------------------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:05:49 ; elapsed = 00:05:55 . Memory (MB): peak = 1166.090 ; gain = 909.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:05:21 ; elapsed = 00:05:39 . Memory (MB): peak = 1166.090 ; gain = 496.199
+Synthesis Optimization Complete : Time (s): cpu = 00:05:49 ; elapsed = 00:05:55 . Memory (MB): peak = 1166.090 ; gain = 909.766
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 694 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 32 instances
+  LD => LDCE: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+394 Infos, 275 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:05:54 ; elapsed = 00:06:00 . Memory (MB): peak = 1166.090 ; gain = 922.934
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/leler/Desktop/SoundDisplay_new.xpr/SoundDisplay/SoundDisplay.runs/synth_1/Top_Student.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_Student_utilization_synth.rpt -pb Top_Student_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 1166.090 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  2 22:52:29 2021...

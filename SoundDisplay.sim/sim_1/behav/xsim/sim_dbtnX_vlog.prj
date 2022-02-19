@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SoundDisplay.srcs/sources_1/new/my_dff.v" \
+"../../../../SoundDisplay.srcs/sources_1/new/single_pulse_circuit.v" \
+"../../../../SoundDisplay.srcs/sim_1/new/sim_dbtnX.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
